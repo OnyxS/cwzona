@@ -1,0 +1,174 @@
+footer {
+  background-color: #11260D;
+  padding: 33px 0 25px;
+  color: #D7F0D2;
+  font-size: 13px;
+  line-height: 150%;
+}
+
+@media (max-width: 767px) {
+  footer {
+    padding-bottom: 60px;
+  }
+}
+
+footer a {
+  color: #A7C559;
+}
+
+footer a:hover {
+  color: #D7F0D2;
+}
+
+footer p {
+  padding-bottom: 20px;
+}
+
+footer li {
+  font-size: 13px;
+  line-height: 15px;
+  padding: 5px 0;
+  list-style: none;
+}
+
+footer .col-title {
+  color: #357427;
+  font-size: 13px;
+  border-bottom: 1px solid #244E1B;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  font-family: 'Museo Sans 500 Medium';
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+footer .wrap {
+  position: relative;
+}
+
+@media (max-width: 1200px) {
+  footer .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+footer .wrap .col-160 {
+  width: 160px;
+  margin: 0px 10px;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  footer .wrap .col-160 {
+    width: calc(50% - 20px);
+  }
+  footer .wrap .col-160:nth-child(2) {
+    display: none;
+  }
+}
+
+footer .wrap .col-160 .logo {
+  display: block;
+  width: 95px;
+  height: 50px;
+  margin: 0 0 22px 0;
+  background: url(../img/logo-white.png) no-repeat left top;
+}
+
+footer .wrap .col-360 {
+  width: 360px;
+  margin: 0 60px 0 0;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  footer .wrap .col-360 {
+    display: none;
+  }
+}
+
+footer .wrap .col-360 .col-title {
+  margin-left: 10px;
+  float: none;
+}
+
+footer .wrap .col-360 ul {
+  margin-left: 10px;
+  -webkit-column-count: 2;
+          column-count: 2;
+  -webkit-column-width: 140px;
+          column-width: 140px;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+}
+
+footer .wrap .col-360 ul li {
+  padding: 5px 0;
+}
+
+footer .wrap .phone {
+  font-size: 16px;
+  line-height: 150%;
+  padding: 30px 0 25px 0;
+}
+
+@media (max-width: 576px) {
+  footer .wrap .phone {
+    font-size: 14px;
+  }
+}
+
+footer .wrap .footer__dostavka {
+  background-color: #1f4b17;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+footer .wrap .footer__dostavka b {
+  font-family: 'Museo Sans 700 Bold';
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+footer .wrap .aqbe {
+  width: 210px;
+  height: 50px;
+  background: #DA251C url(../img/aqbe-logo.png) no-repeat 78px 27px;
+  line-height: 19px;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+  right: -40px;
+  bottom: -25px;
+}
+
+@media (max-width: 1200px) {
+  footer .wrap .aqbe {
+    right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  footer .wrap .aqbe {
+    bottom: -60px;
+  }
+}
+
+footer .wrap .aqbe a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 7px 0px 0px 20px;
+}
+
+footer .wrap .aqbe a:hover {
+  text-decoration: underline;
+}
