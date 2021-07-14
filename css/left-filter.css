@@ -1,0 +1,125 @@
+.logoFilter {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.grey {
+  -webkit-filter: grayscale(1) opacity(0.3);
+          filter: grayscale(1) opacity(0.3);
+}
+
+input[type="text"] {
+  height: 38px;
+  width: 158px;
+  padding-left: 9px;
+  -webkit-box-shadow: inset 1px 1px 0px;
+          box-shadow: inset 1px 1px 0px;
+  border: 1px solid #EAEAEA;
+  float: left;
+  font-size: 15px;
+  color: #173211;
+}
+
+@media (max-width: 767px) {
+  input[type="text"] {
+    width: 250px;
+  }
+}
+
+#set_filter {
+  clear: both;
+  -webkit-box-shadow: inset 0px 1px 0px , inset 0px -2px 0px;
+          box-shadow: inset 0px 1px 0px , inset 0px -2px 0px;
+  height: 40px;
+  width: 200px;
+  background-color: #367528;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Museo Sans 500 Medium';
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  #set_filter {
+    width: 250px;
+    float: left;
+    clear: none;
+  }
+}
+
+.price-filter {
+  color: #227970;
+  font-size: 12px;
+  line-height: 40px;
+  width: 30px;
+  padding-bottom: 10px;
+  display: block;
+  float: left;
+  clear: left;
+}
+
+.title {
+  font-size: 15px;
+  color: #173211;
+  font-family: 'Museo Sans 500 Medium';
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 15px 0px;
+}
+
+.col-inner-left .left-comp-check:hover img, .col-inner-left .left-comp-check:focus img, .col-inner-left .left-comp-check:active img {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.col-inner-left .left-comp-check label {
+  color: #227970;
+  font-size: 11px;
+  line-height: 16px;
+  padding-bottom: 8px;
+  display: block;
+  float: left;
+}
+
+.col-inner-left .left-comp-check label img {
+  height: 14px;
+  margin-left: 5px;
+}
+
+.col-inner-left .left-comp-check .jq-checkbox {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #DDDDDD;
+  background: #fff;
+  cursor: pointer;
+  float: left;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 3px 10px 11px 0px;
+  clear: left;
+}
+
+.col-inner-left .left-comp-check .jq-checkbox input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 0px;
+  padding: 0px;
+}
+
+.col-inner-left .checked .jq-checkbox__div {
+  width: 13px;
+  height: 13px;
+  background: url(../img/icons.png) no-repeat -1px -501px;
+}

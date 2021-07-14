@@ -26,6 +26,7 @@ html{
 	box-sizing: border-box;
 }
 a{
+	
 	color: #227970;
 	&:active,&:hover{
 		color: #D64227;
@@ -80,7 +81,7 @@ h3{
 
 .wrap__block{
 	background: #fff;
-	width: 1100px;
+	width: 960px;
 	margin: 0px auto 40px auto;
 	text-align: left;
 	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
@@ -88,6 +89,36 @@ h3{
 		width: calc(100vw - 20px);
 	}
 }
+
+.bottom-text{
+	padding: 10px 10px 50px;
+	font-size: 13px;
+	line-height: 150%;
+}
+.inner-bottom-text{
+	margin: 0 0 0 210px;
+}
+
+.breadcrumbs{
+	font-size: 12px;
+    line-height: 15px;
+    color: #717F6C;
+    font-family: 'museo_sans_cyrl100';
+    font-weight: 100;
+    margin-bottom: 5px;
+	 a{
+		color: inherit;
+		text-decoration: none;
+	 }
+}
+
+.mybutn {
+	background-color: #194b171c;
+	padding: 10px;
+	border-radius: 7px;
+}
+
+
 
 .empty{
 	clear: both;

@@ -1,0 +1,83 @@
+.see {
+  background-color: #EDEFEE;
+}
+
+.see h3 {
+  background-color: #367528;
+  height: auto;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: 'Museo Sans 500 Medium';
+  font-weight: 500;
+  display: inline-block;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .see h3 {
+    line-height: 1.2;
+    padding: 15px 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .see h3 {
+    font-size: 12px;
+  }
+}
+
+.see .catalog-viewed {
+  padding-left: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.see .catalog-viewed .item {
+  padding: 0px 10px;
+  width: 160px;
+  float: left;
+}
+
+@media (max-width: 576px) {
+  .see .catalog-viewed .item {
+    padding: 0 3px;
+    width: 33%;
+  }
+}
+
+.see .catalog-viewed .item .img-wrap {
+  width: 120px;
+  height: 120px;
+  background: #fff;
+  text-align: center;
+  line-height: 120px;
+  vertical-align: middle;
+}
+
+@media (max-width: 576px) {
+  .see .catalog-viewed .item .img-wrap {
+    width: 100%;
+  }
+}
+
+.see .catalog-viewed .item .name {
+  line-height: 14px;
+  font-size: 11px;
+  font-family: 'Museo Sans 500 Medium';
+  font-weight: 500;
+  padding: 10px 3px 15px;
+  overflow: hidden;
+}
+
+@media (max-width: 576px) {
+  .see .catalog-viewed .item .name {
+    padding: 10px 0;
+    font-size: 9px;
+  }
+}
