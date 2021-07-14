@@ -1,43 +1,40 @@
 @font-face {
-	font-family: 'Museo Sans 300 Light';
-	src: url('../fonts/MuseoSansCyrl-300.ttf');
-	
-	font-weight: normal;
-	font-style: normal;
+  font-family: "Museo Sans 300 Light";
+  src: url("../fonts/MuseoSansCyrl-300.ttf");
+
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Museo Sans 500 Medium';
-	src: url('../fonts/MuseoSansCyrl-500.ttf');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "Museo Sans 500 Medium";
+  src: url("../fonts/MuseoSansCyrl-500.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Museo Sans 700 Bold';
-	src: url('../fonts/MuseoSansCyrl-700.ttf');
-	
+  font-family: "Museo Sans 700 Bold";
+  src: url("../fonts/MuseoSansCyrl-700.ttf");
 }
 
-
-
-html{
-	scroll-behavior: smooth;
-	box-sizing: border-box;
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
-a{
-	
-	color: #227970;
-	&:active,&:hover{
-		color: #D64227;
-	}
+a {
+  color: #227970;
+  &:active,
+  &:hover {
+    color: #d64227;
+  }
 }
 
-p{
-	font-size: 14px;
-	line-height: 18px;
-	font-family: 'Museo Sans 300 Light';
-	padding-bottom: 20px;
+p {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Museo Sans 300 Light";
+  padding-bottom: 20px;
 }
 
 ul,
@@ -57,81 +54,80 @@ body {
   box-sizing: inherit;
 }
 
-body{
-	background-color: #F7F7F7;
-	text-align: center;
-	color: #183312;
-	font-family: 'Museo Sans 300 Light', 'sans-serif';
-	
-	font-weight: 300;
-	font-size: 13px;
-	min-width: 960px;
-	padding-top: 40px;
-	@media(max-width:1200px){
-		min-width: 320px;
-	}
+body {
+  background-color: #f7f7f7;
+  text-align: center;
+  color: #183312;
+  font-family: "Museo Sans 300 Light", "sans-serif";
+
+  font-weight: 300;
+  font-size: 13px;
+  min-width: 960px;
+  padding-top: 40px;
+  @media (max-width: 1200px) {
+    min-width: 320px;
+  }
 }
 
-h3{
-	font-size: 16px;
-	margin: 1em 0;
+h3 {
+  font-size: 16px;
+  margin: 1em 0;
 }
 
-
-
-.wrap__block{
-	background: #fff;
-	width: 960px;
-	margin: 0px auto 40px auto;
-	text-align: left;
-	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-	@media(max-width:1200px){
-		width: calc(100vw - 20px);
-	}
+.wrap__block {
+  background: #fff;
+  width: 960px;
+  margin: 0px auto 40px auto;
+  text-align: left;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  @media (max-width: 1200px) {
+    width: calc(100vw - 20px);
+  }
 }
 
-.bottom-text{
-	padding: 10px 10px 50px;
-	font-size: 13px;
-	line-height: 150%;
+.bottom-text {
+  padding: 10px 10px 50px;
+  font-size: 13px;
+  line-height: 150%;
 }
-.inner-bottom-text{
-	margin: 0 0 0 210px;
+.inner-bottom-text {
+  margin: 0 0 0 210px;
+  @media (max-width: 576px) {
+    margin: 0;
+  }
 }
 
-.breadcrumbs{
-	font-size: 12px;
-    line-height: 15px;
-    color: #717F6C;
-    font-family: 'museo_sans_cyrl100';
-    font-weight: 100;
-    margin-bottom: 5px;
-	 a{
-		color: inherit;
-		text-decoration: none;
-	 }
+.breadcrumbs {
+  font-size: 12px;
+  line-height: 15px;
+  color: #717f6c;
+  font-family: "museo_sans_cyrl100";
+  font-weight: 100;
+  margin-bottom: 5px;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 
 .mybutn {
-	background-color: #194b171c;
-	padding: 10px;
-	border-radius: 7px;
+  background-color: #194b171c;
+  padding: 10px;
+  border-radius: 7px;
 }
 
-
-
-.empty{
-	clear: both;
-	height: 0;
-	overflow: hidden;
+.empty {
+  clear: both;
+  height: 0;
+  overflow: hidden;
 }
 
-.wrap{
-	width: 960px;
-	margin: 0px auto;
-	text-align: left;
-	@media(max-width:1200px){
-		width:100%;
-		max-width: 100vw;
-	}
+.wrap {
+  width: 960px;
+  margin: 0px auto;
+  text-align: left;
+  @media (max-width: 1200px) {
+    width: 100%;
+    max-width: 100vw;
+  }
 }

@@ -1,19 +1,19 @@
 @font-face {
-  font-family: 'Museo Sans 300 Light';
+  font-family: "Museo Sans 300 Light";
   src: url("../fonts/MuseoSansCyrl-300.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Museo Sans 500 Medium';
+  font-family: "Museo Sans 500 Medium";
   src: url("../fonts/MuseoSansCyrl-500.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Museo Sans 700 Bold';
+  font-family: "Museo Sans 700 Bold";
   src: url("../fonts/MuseoSansCyrl-700.ttf");
 }
 
@@ -28,13 +28,13 @@ a {
 }
 
 a:active, a:hover {
-  color: #D64227;
+  color: #d64227;
 }
 
 p {
   font-size: 14px;
   line-height: 18px;
-  font-family: 'Museo Sans 300 Light';
+  font-family: "Museo Sans 300 Light";
   padding-bottom: 20px;
 }
 
@@ -57,10 +57,10 @@ body {
 }
 
 body {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   text-align: center;
   color: #183312;
-  font-family: 'Museo Sans 300 Light', 'sans-serif';
+  font-family: "Museo Sans 300 Light", "sans-serif";
   font-weight: 300;
   font-size: 13px;
   min-width: 960px;
@@ -103,11 +103,17 @@ h3 {
   margin: 0 0 0 210px;
 }
 
+@media (max-width: 576px) {
+  .inner-bottom-text {
+    margin: 0;
+  }
+}
+
 .breadcrumbs {
   font-size: 12px;
   line-height: 15px;
-  color: #717F6C;
-  font-family: 'museo_sans_cyrl100';
+  color: #717f6c;
+  font-family: "museo_sans_cyrl100";
   font-weight: 100;
   margin-bottom: 5px;
 }
