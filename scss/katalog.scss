@@ -1,16 +1,4 @@
-.close {
-  display: none;
-}
 
-.strelka{
-  &:after{
-    transform: rotate(
-      135deg
-      ) !important;
-          top: 45% !important;
-  }
-
-}
 
 .katalog-row{
   &:after{
@@ -21,13 +9,7 @@
   }
 }
 
-.active{
-  display: block !important;
-  &:after{
-    transform: rotate(135deg) !important;
-    top: 45% !important;
-  }
-}
+
 .search__form{
 	margin-top: 0;
 }
@@ -41,147 +23,9 @@
   }
 }
 
-.show-catalog {
-  display: none;
-  @media(max-width:767px){
-    display: block;
-    width: 280px;
-    text-align: center;
-    margin: 15px auto;
-    background-color: #173211;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-family: 'museo_sans_cyrl500';
-    font-weight: 500;
-    padding: 15px 25px 15px 0;
-    cursor: pointer;
-    position: relative;
-    &:after{
-      content: '';
-    display: block;
-    position: absolute;
-    right: 40px;
-    top: 30%;
-    border: 5px solid transparent;
-    border-left: 5px solid #fff;
-    border-bottom: 5px solid #fff;
-    transform: rotate(-45deg);
-    }
-  }
-}
-.col-inner-left {
-  width: 200px;
-  margin-right: 20px;
-  float: left;
-  @media(max-width:1200px){
-    flex: 0 0 auto;
-  }
-  @media(max-width:767px){
-    display: none;
-    padding-bottom: 20px;
-    margin-right: 0;
-    width: 100%;
-  }
-  .col-title {
-    height: 40px;
-    background-color: #a1cb0d;
-    text-align: center;
-    line-height: 40px;
-    text-transform: uppercase;
-    font-family: 'Museo Sans 500 Medium';
-    font-weight: 500;
-    color: #fff;
-    font-size: 15px;
-    margin-bottom: 15px;
-    display: block;
-    text-decoration: none;
-  }
-  .menu-left {
-    li {
-      text-transform: uppercase;
-      font-size: 12px;
-		list-style: none;
-      line-height: 15px;
-      padding: 3px 0 8px 2px;
-      text-transform: uppercase;
-      font-family: 'Museo Sans 700 Bold';
-      font-weight: 700;
-      text-decoration: none;
-      a {
-        color: #207970;
-        text-decoration: none;
-        display: block;
-      }
-    }
-  }
-  .search-form{
-	  margin:30px 0 100px -2px;
-  }
-  .search {
-    height: 42px;
-    width: 158px;
-    padding: 0px 40px 0px 15px;
-	 float:left;
-	 border: 1px solid #EAEAEA;
-    float: left;
-    font-size: 15px;
-   
-    color: #173211;
-	 box-shadow: inset 1px 1px 0px;
-    
-  }
-  .search-img {
-    width: 42px;
-    height: 40px;
-    
-    background-position: 9px -292px;
-    background: #a1cb0d url(../img/icons.png) no-repeat 10px -290px;
-    border: none;
-    float: left;
 
-    box-shadow: inset -1px 0px 1px;
-    cursor: pointer;
-  }
-  
-}
 
-.col-inner-content {
-  padding: 10px 20px 40px;
-  width: 740px;
-  min-height: 530px;
-  margin-bottom: 40px;
-  float: left;
-  background-color: #fff;
-  margin-bottom: 40px;
-  padding-bottom: 0;
-  box-shadow: 0px 1px 2px;
-  @media(max-width:1200px){
-    width: calc(100% - 220px);
-    overflow: hidden;
-  }
-  @media(max-width:767px){
-		width: 100%;
-    padding:10px;
-	 }
-  .page-title {
-    margin: 10px 20px 20px -20px;
-    background-color: #367528;
-    height: auto;
-    line-height: 35px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-size: 15px;
-    font-family: 'Museo Sans 500 Medium';
-    font-weight: 500;
-    display: inline-block;
-    padding: 0 20px;
-    @media(max-width:767px){
-      margin: 10px 0;
-      line-height: 1.2;
-      padding: 15px 5px;
-     }
-  }
+
   .catalog-grid {
     margin: 0px -10px;
     .item {
@@ -268,35 +112,7 @@
          }
 			 }
         }
-        .buy-btn {
-          margin-top: 4px;
-          color: #fff;
-          text-decoration: none;
-          display: block;
-          float: left;
-          width: 100px;
-          height: 30px;
-          padding-left: 29px;
-          line-height: 30px;
-          font-size: 11px;
-          letter-spacing: -0.002em;
-          font-family: "Museo Sans 700 Bold";
-          font-weight: 700;
-          background: #a1cb0d url(../img/icons.png) no-repeat 6px -542px;
-
-          box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2),
-            inset 0px -2px 0px rgba(0, 0, 0, 0.15);
-            @media(max-width:576px){
-              margin: 5px auto;
-              display: block;
-              float: none;
-             }
-				&:hover{
-					background-color: #367528;
-    color: #fff;
-
-				}
-        }
+       
       }
     }
-  }
+  
