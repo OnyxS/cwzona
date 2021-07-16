@@ -1,0 +1,19 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+table td {
+  vertical-align: bottom;
+  text-align: center;
+  padding-top: 10px;
+}
+
+table td img {
+  width: 170px;
+  height: 250px;
+  max-width: 100%;
+  height: auto !important;
+}
