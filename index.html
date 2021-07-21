@@ -9,13 +9,195 @@
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/see.css">
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/see.css" />
+
     <link rel="stylesheet" href="css/footer-element.css" />
     <link rel="stylesheet" href="css/header__nav.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <title>Document</title>
   </head>
   <body>
+    <div class="fancybox" id="fancyboxMail">
+      <div class="fancybox-overlay"></div>
+      <div
+        class="
+          fancybox-wrap fancybox-desktop fancybox-type-ajax fancybox-opened
+        "
+        tabindex="-1"
+        style="
+          width: 390px;
+          height: auto;
+          position: absolute;
+          top: 93px;
+          left: 50%;
+          opacity: 1;
+          overflow: visible;
+          transform: translate(-50%, 0px);
+        "
+      >
+        <div
+          class="fancybox-skin"
+          style="padding: 15px; width: auto; height: auto"
+        >
+          <div class="fancybox-outer">
+            <div
+              class="fancybox-inner"
+              style="overflow: hidden; width: 360px; height: 450px"
+            >
+              <div class="mfeedback inner-form popup-form">
+                <h2 class="title-15">Оставить заявку</h2>
+                <br />
+
+                <form class="feedback-form">
+                  <input type="hidden" name="sessid" id="sessid" />
+                  <div class="mf-name">
+                    <div class="mf-text">Имя<span class="mf-req">*</span></div>
+                    <input type="text" name="user_name" value="" />
+                  </div>
+                  <div class="mf-email">
+                    <div class="mf-text">
+                      Электронная почта<span class="mf-req">*</span>
+                    </div>
+                    <input type="text" name="user_email" value="" />
+                  </div>
+
+                  <div class="mf-message">
+                    <div class="mf-text">Вопросы или пожелания</div>
+                    <input type="text" name="MESSAGE" value="" />
+                  </div>
+
+                  <div class="mf-message">
+                    <div class="mf-text"></div>
+                    <div style="float: left; font-size: 16px">
+                      <input
+                        checked=""
+                        name="personal"
+                        style="font-size: 20px"
+                        type="checkbox"
+                      />Вы соглашаетесь на
+                      <a href="/agreement/" target="_blank">обработку</a> ваших
+                      данных
+                    </div>
+                  </div>
+
+                  <br />
+                  <input
+                    type="hidden"
+                    name="PARAMS_HASH"
+                    value="b29a5f7033972c40f264d51792b8e9ad"
+                  />
+                  <input
+                    id="cel_1"
+                    type="submit"
+                    name="submit"
+                    onclick="yaCounter33634304.reachGoal('zvonok'); return true;"
+                    value="отправить"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          id="request-close"
+          title="Close"
+          class="fancybox-item fancybox-close"
+          href="javascript:;"
+        >
+        </a>
+      </div>
+    </div>
+    <div class="fancybox" id="fancyboxTele">
+      <div class="fancybox-overlay"></div>
+      <div
+        class="
+          fancybox-wrap fancybox-desktop fancybox-type-ajax fancybox-opened
+        "
+        tabindex="-1"
+        style="
+          width: 390px;
+          height: auto;
+          position: absolute;
+          top: 57px;
+          left: 50%;
+          opacity: 1;
+          overflow: visible;
+          transform: translate(-50%, 0px);
+        "
+      >
+        <div
+          class="fancybox-skin"
+          style="padding: 15px; width: auto; height: auto"
+        >
+          <div class="fancybox-outer">
+            <div
+              class="fancybox-inner"
+              style="overflow: hidden; width: 360px; height: 450px"
+            >
+              <div class="mfeedback inner-form popup-form">
+                <h2 class="title-15">Заказать обратный звонок</h2>
+                <br />
+
+                <form class="feedback-form">
+                  <input type="hidden" name="sessid" id="sessid" />
+                  <div class="mf-name">
+                    <div class="mf-text">Имя<span class="mf-req">*</span></div>
+                    <input type="text" name="user_name" value="" />
+                  </div>
+                  <div class="mf-email">
+                    <div class="mf-text">
+                      Телефон<span class="mf-req">*</span>
+                    </div>
+                    <input type="text" name="user_email" value="" />
+                  </div>
+
+                  <div class="mf-message">
+                    <div class="mf-text">Удобное время для звонка</div>
+                    <input type="text" name="MESSAGE" value="" />
+                  </div>
+
+                  <div class="mf-message">
+                    <div class="mf-text"></div>
+                    <div style="float: left; font-size: 16px">
+                      <input
+                        checked=""
+                        name="personal"
+                        style="font-size: 20px"
+                        type="checkbox"
+                      />Вы соглашаетесь на
+                      <a href="/agreement/" target="_blank">обработку</a> ваших
+                      данных
+                    </div>
+                  </div>
+
+                  <br />
+                  <input
+                    type="hidden"
+                    name="PARAMS_HASH"
+                    value="b29a5f7033972c40f264d51792b8e9ad"
+                  />
+                  <input
+                    id="cel_1"
+                    type="submit"
+                    name="submit"
+                    onclick="yaCounter33634304.reachGoal('zvonok'); return true;"
+                    value="отправить"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          id="request-close"
+          title="Close"
+          class="fancybox-item fancybox-close"
+          href="javascript:;"
+        >
+        </a>
+      </div>
+    </div>
+
     <section class="header">
       <div class="header__line">
         <div class="header__line-container">
@@ -45,7 +227,7 @@
                 >
                 <br />
                 <div class="call__me">
-                  <a href="" class="call__me-tel">Перезвоните мне</a>
+                  <a href="#" class="call__me-tel">Перезвоните мне</a>
                   <span
                     >Напишите нам в
                     <a target="_blank" href="https://wa.me/79269277370"
@@ -60,7 +242,7 @@
                 <a href="/cart/">В корзине:</a> <span class="count">пусто</span>
               </div>
               <div class="request">
-                <a href="" class="psevdo feedback fancybox.ajax"
+                <a href="#" class="psevdo feedback fancybox.ajax"
                   >Отправить заявку</a
                 >
               </div>
@@ -1349,7 +1531,7 @@
             <div class="price">
               <span class="price__text">Цена:</span>
               <span id="price">37 962</span>
-              <span class="rouble">Р</span>
+              <span class="rouble">e</span>
             </div>
             <a href="" class="buy-btn" id="2098">В КОРЗИНУ</a>
           </div>
@@ -1366,7 +1548,7 @@
             <div class="price">
               <span class="price__text">Цена:</span>
               <span id="price">37 962</span>
-              <span class="rouble">Р</span>
+              <span class="rouble">e</span>
             </div>
             <a href="" class="buy-btn" id="2098">В КОРЗИНУ</a>
           </div>
@@ -1383,7 +1565,7 @@
             <div class="price">
               <span class="price__text">Цена:</span>
               <span id="price">37 962</span>
-              <span class="rouble">Р</span>
+              <span class="rouble">e</span>
             </div>
             <a href="" class="buy-btn" id="2098">В КОРЗИНУ</a>
           </div>
@@ -1400,7 +1582,7 @@
             <div class="price">
               <span class="price__text">Цена:</span>
               <span id="price">37 962</span>
-              <span class="rouble">Р</span>
+              <span class="rouble">e</span>
             </div>
             <a href="" class="buy-btn" id="2098">В КОРЗИНУ</a>
           </div>

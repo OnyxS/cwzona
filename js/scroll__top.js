@@ -11,8 +11,8 @@ window.onscroll = function() {
 		top.style.right="0"
 		top.style.margin="auto"
 		top.style.backgroundColor="#F7F7F7"
+		headerTop.style.paddingBottom="20px"
 		menu.style.display="none"
-		headerTop.style.paddingBottom="0"
 		search.style.marginTop="0"
 	}
 	else{

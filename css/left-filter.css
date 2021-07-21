@@ -14,7 +14,7 @@ input[type="text"] {
   padding-left: 9px;
   -webkit-box-shadow: inset 1px 1px 0px;
           box-shadow: inset 1px 1px 0px;
-  border: 1px solid #EAEAEA;
+  border: 1px solid #eaeaea;
   float: left;
   font-size: 15px;
   color: #173211;
@@ -28,8 +28,8 @@ input[type="text"] {
 
 #set_filter {
   clear: both;
-  -webkit-box-shadow: inset 0px 1px 0px , inset 0px -2px 0px;
-          box-shadow: inset 0px 1px 0px , inset 0px -2px 0px;
+  -webkit-box-shadow: inset 0px 1px 0px, inset 0px -2px 0px;
+          box-shadow: inset 0px 1px 0px, inset 0px -2px 0px;
   height: 40px;
   width: 200px;
   background-color: #367528;
@@ -39,7 +39,7 @@ input[type="text"] {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Museo Sans 500 Medium';
+  font-family: "Museo Sans 500 Medium";
   font-weight: 500;
   margin-top: 10px;
   cursor: pointer;
@@ -67,7 +67,7 @@ input[type="text"] {
 .title {
   font-size: 15px;
   color: #173211;
-  font-family: 'Museo Sans 500 Medium';
+  font-family: "Museo Sans 500 Medium";
   font-weight: 500;
   text-transform: uppercase;
   margin: 15px 0px;
@@ -95,7 +95,7 @@ input[type="text"] {
 .col-inner-left .left-comp-check .jq-checkbox {
   width: 15px;
   height: 15px;
-  border: 1px solid #DDDDDD;
+  border: 1px solid #dddddd;
   background: #fff;
   cursor: pointer;
   float: left;
@@ -145,7 +145,7 @@ input[type="text"] {
     position: relative;
   }
   .show-catalog:after {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     right: 40px;
@@ -187,7 +187,7 @@ input[type="text"] {
   text-align: center;
   line-height: 40px;
   text-transform: uppercase;
-  font-family: 'Museo Sans 500 Medium';
+  font-family: "Museo Sans 500 Medium";
   font-weight: 500;
   color: #fff;
   font-size: 15px;
@@ -203,7 +203,7 @@ input[type="text"] {
   line-height: 15px;
   padding: 3px 0 8px 2px;
   text-transform: uppercase;
-  font-family: 'Museo Sans 700 Bold';
+  font-family: "Museo Sans 700 Bold";
   font-weight: 700;
   text-decoration: none;
 }
@@ -223,7 +223,7 @@ input[type="text"] {
   width: 158px;
   padding: 0px 40px 0px 15px;
   float: left;
-  border: 1px solid #EAEAEA;
+  border: 1px solid #eaeaea;
   float: left;
   font-size: 15px;
   color: #173211;
@@ -299,7 +299,7 @@ input[type="text"] {
   text-transform: uppercase;
   color: #ffffff;
   font-size: 15px;
-  font-family: 'Museo Sans 500 Medium';
+  font-family: "Museo Sans 500 Medium";
   font-weight: 500;
   display: inline-block;
   padding: 0 20px;
